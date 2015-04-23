@@ -35,21 +35,29 @@
        <div id="content">
            <h4>HALL OF FAME</h4>
            <div class="shortpost">In this post we honour those millionares
-               who went broke by spending like crazy. <br/>
+               who went broke by spending like crazy. <br/> <br/>
                <a href="">Read More</a></div>
+           <br/>
+
            <hr/>
            <h4>CAR ADVICE</h4>
            <div class="shortpost">Economic, small and cheap? Not for your!
-               Get some realz wheels and break the bank.<br/>
+               Get some realz wheels and break the bank.<br/> <br/>
                <a href="">Read More</a></div>
+           <br/>
            <hr/>
            <h4>THE MILLIONARE PLAYLIST</h4>
-           <div class="shortpost">In this post we honour those who spent like crazy! <br/>
+           <div class="shortpost">When you are rich even your music should be
+               about cash. Get these songs to play on your
+               golden iPod 24/7.  <br/><br/>
                <a href="">Read More</a></div>
+           <br/>
            <hr/>
            <h4>154 MILLION IN A WEEK</h4>
-           <div class="shortpost">http://www.independent.co.uk/news/uk/home-news/euromillions-154-million-how-to-spend-it-all-in-one-week-2306117.html <br/>
+           <div class="shortpost">http://www.independent.co.uk/news/uk/home-news/euromillions-154-million-how-to-spend-it-all-in-one-week-2306117.html
+               <br/><br/>
                <a href="">Read More</a></div>
+           <br/>
            <hr/>
 
 

@@ -33,7 +33,7 @@
     </div>
 
     <div id="shirtcontent">
-   <div id="shirts"><img src="img/shirt1.jpg" alt="" width="200px"/> <img src="img/shirt2.jpg" alt="" width="200px"/> <img src="img/shirt2.jpg" alt="" width="200px"/>
+   <div id="shirts"><img src="img/shirt1.jpg" alt="" width="200px"/> <img src="img/shirt2.jpg" alt="" width="200px"/>
        <img src="img/shirt3.jpg" alt="" width="200px"/>
        <img src="img/shirt4.jpg" alt="" width="200px"/>
        <img src="img/shirt5.jpg" alt="" width="200px"/>
