@@ -26,7 +26,7 @@
         mysql_connect("localhost", "root", "") or die(mysql_error());
 
         //Connect to the database
-        mysql_select_db("first_db") or die("Cannot connect to database");
+        mysql_select_db("blog") or die("Cannot connect to database");
 
         //Query the users table
         $query = mysql_query("Select * from users");
