@@ -16,7 +16,7 @@
     <div id="header">
         <ul>
             <li><a href="index.php">HOME</a></li>
-            <li><a href="about.php">ABOUT</a></li>
+            <li><a href="">ABOUT</a></li>
             <li><a href="">CONTACT</a></li>
             <li><a href="shirts.php">SHIRTS</a></li>
         </ul>
@@ -32,13 +32,17 @@
         <a href=""> JANUARY </a> <br/> <br/>
     </div>
 
-    <div id="shirtcontent">
-   <div id="shirts"><img src="img/shirt1.jpg" alt="" width="200px"/> <img src="img/shirt2.jpg" alt="" width="200px"/>
-       <img src="img/shirt3.jpg" alt="" width="200px"/>
-       <img src="img/shirt4.jpg" alt="" width="200px"/>
-       <img src="img/shirt5.jpg" alt="" width="200px"/>
-       <img src="img/shirt6.jpg" alt="" width="200px"/>
-       <img src="img/shirt7.jpg" alt="" width="200px"/></div>
+    <div id="aboutcontent">
+
+        <h2>New money? Start here!</h2>
+        Let me be the first to welcome you in the club of the millionaires! It doesn't matter if you earned your money
+        by buying oil, selling records, or simply becoming a YouTube sensation! Do point is now, like never before
+        YOU have the power to spend money. And don't just spend them! WASTE THEM!
+        This is where the SPEND NOW SAVE NEVER &trade; blog comes into play! We will give you the best ideas on
+        how to spend those easy earned money like there is no tomorrow!
+
+
+
 
 
     </div>

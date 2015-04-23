@@ -16,7 +16,7 @@
        <div id="header">
            <ul>
                <li><a href="index.php">HOME</a></li>
-               <li><a href="">ABOUT</a></li>
+               <li><a href="about.php">ABOUT</a></li>
                <li><a href="">CONTACT</a></li>
                <li><a href="shirts.php">SHIRTS</a></li>
            </ul>
@@ -46,7 +46,7 @@
                <a href="">Read More</a></div>
            <br/>
            <hr/>
-           <h4>THE MILLIONARE PLAYLIST</h4>
+           <h4>THE MILLIONAIRE PLAYLIST</h4>
            <div class="shortpost">When you are rich even your music should be
                about cash. Get these songs to play on your
                golden iPod 24/7.  <br/><br/>
