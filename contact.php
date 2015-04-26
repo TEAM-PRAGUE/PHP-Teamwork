@@ -17,7 +17,7 @@
         <ul>
             <li><a href="index.php">HOME</a></li>
             <li><a href="about.php">ABOUT</a></li>
-            <li><a href="contact.php">CONTACT</a></li>
+            <li><a href="">CONTACT</a></li>
             <li><a href="shirts.php">SHIRTS</a></li>
         </ul>
     </div>
@@ -32,20 +32,19 @@
         <a href=""> JANUARY </a> <br/> <br/>
     </div>
 
-    <div id="aboutcontent">
-
-        <h2>New money? Start here!</h2>
-        Let me be the first to welcome you in the club of the millionaires! It doesn't matter if you earned your money
-        by buying oil, selling records, or simply becoming a YouTube sensation! Do point is now, like never before
-        YOU have the power to spend money. And don't just spend them! WASTE THEM!
-        This is where the SPEND NOW SAVE NEVER &trade; blog comes into play! We will give you the best ideas on
-        how to spend those easy earned money like there is no tomorrow!
-
-
+    <div id="contactlist">
+        <img src="img/adress.png" alt="" />
+        <p>Our postal address is: <br/></p>
+        15 Boulevard de Suisse <br/>
+        Monaco-Ville <br/>
+        MC 98000 <br/>
+        Monaco <br/>
+        (Look for the black Maserati)
 
 
 
     </div>
+
 
 </section>
 </body>
