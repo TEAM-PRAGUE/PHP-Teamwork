@@ -39,7 +39,6 @@
                 <h4>(<?php echo $post['total_comments'];?> comments, last comment: <?php echo $post['last_comment'];?>)</h4>
                 <h4>Visits: <?php echo $post['visits']; ?></h4>
 
-                <hr/>
 
                 <p><?php echo $post['preview']; ?></p>
                 <hr/>

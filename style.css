@@ -107,3 +107,9 @@ h1{
 #posting{
     margin-left: 5%;
 }
+#loginbox{
+    margin-left: 30%;
+    background-color: white;
+    width: 30%;
+    padding: 20px;
+}

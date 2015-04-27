@@ -14,7 +14,7 @@
         <li><a href="shirts.php">SHIRTS</a></li>
     </ul>
 </div>
-<div id="main">
+<div>
 <div id="loginbox">
     <h2>Login Page</h2>
     <a href="index.php">Click here to go back</a><br/><br/>
