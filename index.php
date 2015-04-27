@@ -1,68 +1,35 @@
-<html>
-<head>
-    <title>Spend now Save Never</title>
-    <link rel="stylesheet" href="style.css"/>
+<?php
+    include('core/init.inc.php');
+?>
 
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title>Home</title>
 </head>
 <body>
-   <section id="main">
-       <div id="reg">
-    <a href="login.php"> Click here to login</a> <br/>
-    <a href="register.php"> Click here to register</a>
-       </div>
+    <div id="reg">
+        <a href="login.php"> Click here to login</a> <br/>
+        <a href="register.php"> Click here to register</a>
+    </div>
+    <div>
+        <?php
+            $posts = getPosts();
 
-        <h1>SPEND NOW SAVE NEVER</h1>
+            foreach ($posts as $post) {
+                ?>
+                <h2><a href="blogRead.php?postID=<?php echo $post['id']; ?>"><?php echo $post['title']; ?></a></h2>
+                <h4>By <?php echo $post['user']; ?> on <?php echo $post['date'];?></h4>
+                <h4>(<?php echo $post['total_comments'];?> comments, last comment: <?php echo $post['last_comment'];?>)</h4>
+                <h4>Visits: <?php echo $post['visits']; ?></h4>
 
-       <div id="header">
-           <ul>
-               <li><a href="index.php">HOME</a></li>
-               <li><a href="about.php">ABOUT</a></li>
-               <li><a href="contact.php">CONTACT</a></li>
-               <li><a href="shirts.php">SHIRTS</a></li>
-           </ul>
-       </div>
+                <hr/>
 
-           <div id="sidebar">
-
-               <a href="">ARCHIVE</a> <br/> <br/>
-               <a href=""> MAY </a> <br/> <br/>
-               <a href=""> APRIL </a> <br/> <br/>
-               <a href=""> MARCH </a> <br/> <br/>
-               <a href=""> FEBRUARY </a> <br/> <br/>
-               <a href=""> JANUARY </a> <br/> <br/>
-       </div>
-
-       <div id="content">
-           <h4>HALL OF FAME</h4>
-           <div class="shortpost">In this post we honour those millionares
-               who went broke by spending like crazy. <br/> <br/>
-               <a href="">Read More</a></div>
-           <br/>
-
-           <hr/>
-           <h4>CAR ADVICE</h4>
-           <div class="shortpost">Economic, small and cheap? Not for your!
-               Get some realz wheels and break the bank.<br/> <br/>
-               <a href="">Read More</a></div>
-           <br/>
-           <hr/>
-           <h4>THE MILLIONAIRE PLAYLIST</h4>
-           <div class="shortpost">When you are rich even your music should be
-               about cash. Get these songs to play on your
-               golden iPod 24/7.  <br/><br/>
-               <a href="">Read More</a></div>
-           <br/>
-           <hr/>
-           <h4>154 MILLION IN A WEEK</h4>
-           <div class="shortpost">http://www.independent.co.uk/news/uk/home-news/euromillions-154-million-how-to-spend-it-all-in-one-week-2306117.html
-               <br/><br/>
-               <a href="">Read More</a></div>
-           <br/>
-           <hr/>
-
-
-       </div>
-
-   </section>
+                <p><?php echo $post['preview']; ?></p>
+                <?php
+            }
+        ?>
+    </div>
 </body>
-</html> 
+</html>

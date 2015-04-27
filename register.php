@@ -1,9 +1,8 @@
+<!DOCTYPE html>
 <html>
-<head>
-    <title>My first PHP Website</title>
-    <title>Spend now Save Never</title>
-    <link rel="stylesheet" href="style.css"/>
-
+<head lang="en">
+    <meta charset="UTF-8">
+    <title>Register</title>
 </head>
 <body>
 
@@ -20,23 +19,16 @@
 </html>
 
 <?php
-
 if ($_SERVER["REQUEST_METHOD"] == "POST") {
-
     $username = mysql_real_escape_string($_POST['username']);
     $password = mysql_real_escape_string($_POST['password']);
-
     $bool = true;
-
     //Connect to the server
     mysql_connect("localhost", "root", "") or die(mysql_error());
-
     //Connect to the database
     mysql_select_db("blog") or die("Cannot connect to database");
-
     //Query the users table
-    $query = mysql_query("Select * from users");
-
+    $query = mysql_query("Select * FROM `users`");
     //Display all rows from query
     while ($row = mysql_fetch_array($query)) {
         $table_users = $row['username'];
@@ -47,7 +39,6 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
             Print '<script>window.location.assign("register.php");</script>';
         }
     }
-
     if ($bool) {
         mysql_query("INSERT INTO users (username, password) VALUES ('$username', '$password')");
         Print '<script>alert("Successfully registered");</script>';
