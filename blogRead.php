@@ -20,8 +20,23 @@
 <head lang="en">
     <meta charset="UTF-8">
     <title>Read the post</title>
+    <link rel="stylesheet" href="style.css"/>
+    <style>
+        body{
+            background-image: none;
+        }
+    </style>
 </head>
 <body>
+<div id="header">
+    <ul>
+        <li><a href="index.php">HOME</a></li>
+        <li><a href="about.php">ABOUT</a></li>
+        <li><a href="contact.php">CONTACT</a></li>
+        <li><a href="shirts.php">SHIRTS</a></li>
+    </ul>
+</div>
+<div id="main">
     <div>
         <?php
 
@@ -79,5 +94,6 @@
         }
         ?>
     </div>
+</div>
 </body>
 </html>

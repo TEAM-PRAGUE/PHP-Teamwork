@@ -18,9 +18,18 @@
 <head lang="en">
     <meta charset="UTF-8">
     <title>Add new post</title>
+    <link rel="stylesheet" href="style.css"/>
 </head>
 <body>
 
+<div id="header">
+    <ul>
+        <li><a href="index.php">HOME</a></li>
+        <li><a href="about.php">ABOUT</a></li>
+        <li><a href="contact.php">CONTACT</a></li>
+        <li><a href="shirts.php">SHIRTS</a></li>
+    </ul>
+</div>
     <form action="" method="post">
         <p>
             <label for="user">Name</label>

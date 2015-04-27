@@ -3,10 +3,18 @@
 <head lang="en">
     <meta charset="UTF-8">
     <title>Register</title>
+    <link rel="stylesheet" href="style.css"/>
 </head>
 <body>
-
-<div id="loginbox">
+<div id="header">
+    <ul>
+        <li><a href="index.php">HOME</a></li>
+        <li><a href="about.php">ABOUT</a></li>
+        <li><a href="contact.php">CONTACT</a></li>
+        <li><a href="shirts.php">SHIRTS</a></li>
+    </ul>
+</div>
+<div id="main">
     <h2>Registration Page</h2>
     <a href="index.php">Click here to go back</a><br/><br/>
     <form action="register.php" method="POST">
