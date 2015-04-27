@@ -1,0 +1,109 @@
+body{
+    background-image: url("img/bgr1.jpg");
+    background-repeat:no-repeat;
+    background-size:cover;
+    font-family: myFourthFont;
+    
+}
+
+#mainc{
+    background-color: white;
+    width: 85%;
+ margin: 0 auto;
+}
+h2{
+    font-family: myFourthFont;
+}
+
+#header{
+    background-color: #3E3A39;
+    width: 91%;
+    height: 5%;
+    margin: 0 auto;
+    text-align: center;
+    font-size: 40px;
+    font-family: mySecondFont;
+    border-radius: 3px;
+}
+
+#header ul li{
+    display: inline-block;
+
+}
+#header ul li a{
+    text-decoration: none;
+    color: white;
+
+}
+#header ul li a:hover{
+    color: orange;
+}
+@font-face {
+    font-family: myFirstFont;
+    src: url(img/FNL.ttf);
+}
+@font-face {
+    font-family: mySecondFont;
+    src: url(img/FNL1.ttf);
+}
+@font-face {
+    font-family: myThirdFont;
+    src: url(img/FNL3.ttf);
+}
+@font-face {
+    font-family: myFourthFont;
+    src: url(img/FNL4.ttf);
+}
+.shortpost{
+    width: 60%;
+}
+
+.shirt1{
+    background-image: url("img/shirt1.jpg");
+    width: 10px;
+}
+#shirtcontent{
+    width: 75%;
+    margin-left: 4%;
+    margin-top: 3%;
+}
+
+#aboutcontent{
+
+    margin-left: 50px;
+    width: 70%;
+    background-color: white;
+}
+
+#contactlist{
+    margin-top: 10px;
+    margin-left: 15%;
+}
+#main{
+    background-color: white;
+    width: 85%;
+    margin: 0 auto;
+    height: 1100px;
+
+}
+h1{
+    font-family: myFirstFont;
+    font-size: 50px;
+    color: black;
+    margin-left: 4%;
+}
+#log{
+    background-color: white;
+    width: 80%;
+}
+
+#reg{
+    background-color: white;
+    position: absolute;
+    top: 11%;
+    left: 78%;
+
+}
+#posting{
+    margin-left: 5%;
+}
